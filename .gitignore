@@ -37,3 +37,10 @@ kagglehub/
 Thumbs.db
 .vscode/
 .idea/
+
+# Binaries & Executables
+bin/
+*.exe
+*.o
+*.obj
+

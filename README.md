@@ -34,8 +34,8 @@ The **Sign Language Recognition and Translation Assistant** is an assistive-tech
 - [x] **Step 4: Comprehensive Dataset Audit & Leakage Checks**
 - [x] **Step 5: Dataset Card Preparation**
 - [x] **Step 6: Leakage-Safe Data Splitting (Signer-Aware)**
-- [x] **Step 7: Reproducible Data Pipeline & Semantics-Preserving Preprocessing** *(Built modular DataLoader, deterministic eval, semantics-preserving augmentation)*
-- [ ] **Step 8: Tensor Mathematics Sandbox (From Scratch)**
+- [x] **Step 7: Reproducible Data Pipeline & Semantics-Preserving Preprocessing**
+- [x] **Step 8: Tensor Mathematics Sandbox (From Scratch)** *(Implemented from scratch in Python & native C++; verified relative error < 1e-11)*
 - [ ] **Step 9: McCulloch-Pitts Neuron (From Scratch)**
 - [ ] **Step 10: Sigmoid Neuron (From Scratch)**
 - [ ] **Step 11: Multilayer Perceptron & Backpropagation (From Scratch)**
