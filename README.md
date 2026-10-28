@@ -41,8 +41,8 @@ The **Sign Language Recognition and Translation Assistant** is an assistive-tech
 - [x] **Step 11: Multilayer Perceptron & Backpropagation (From Scratch)**
 - [x] **Step 12: Finite-Difference Gradient Checking**
 - [x] **Step 13: Optimizer Benchmarking (GD, SGD, Momentum, NAG)**
-- [x] **Step 14: Learning Rule Demonstrations (Hebbian, Competitive, Error-Correction, Boltzmann)** *(Implemented & benchmarked all 5 rules in Python & C++)*
-- [ ] **Step 15: Activation Functions Comparison & Visualizations**
+- [x] **Step 14: Learning Rule Demonstrations (Hebbian, Competitive, Error-Correction, Boltzmann)** *(Implemented & benchmarked all 5 rules in pure Python from scratch)*
+- [x] **Step 15: Activation Functions Comparison & Visualizations** *(Implemented, visualized, and analyzed Step, Sigmoid, Tanh, ReLU, LeakyReLU, and 10-layer vanishing gradients in pure Python)*
 - [ ] **Step 16: Baseline CNN Sign Classifier Architecture**
 - [ ] **Step 17: Baseline Training Pipeline & Experiment Setup**
 - [ ] **Step 18: Baseline Evaluation & Confusion Matrix Analysis**
