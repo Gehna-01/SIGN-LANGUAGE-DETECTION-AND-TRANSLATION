@@ -36,6 +36,7 @@ This log documents all external resources, tools, code fragments, libraries, dat
 | RES-017 | Baseline Evaluation & Confusion Matrix | Evaluation & Error Diagnostics | From Scratch (Scikit-Learn, Seaborn, Matplotlib) | Academic / Project Code | 29-class classification report, normalized confusion matrix, error pair diagnostics | Evaluated on validation set, rendered publication heatmap, ranked top 10 error pairs | Implemented and analyzed morphological ambiguities (B vs V, J vs H, space vs nothing) |
 | RES-018 | Learning Curve Diagnostics | Training Diagnostics Suite | From Scratch (Matplotlib & Pandas) | Academic / Project Code | Multi-panel convergence visualization, loss trajectories, generalization gap | Ingested epoch logs, plotted 4-panel diagnostic curves | Analyzed underfitting vs overfitting and bias-variance dynamics |
 | RES-019 | Controlled Regularization Ablations | Scientific Experimentation Engine | From Scratch (PyTorch & Scikit-Learn) | Academic / Project Code | Ceteris paribus ablation study isolating Dropout, Weight Decay, and Augmentation | Automated 4-condition benchmarking harness and comparative bar charts | Isolated causal regularizer contributions to generalization gap |
+| RES-020 | Pretrained ResNet-18 Vision Backbone | Transfer Learning Architecture | PyTorch / Torchvision Models | BSD 3-Clause Licence | Advanced vision model benchmark for 29-class sign recognition | Pretrained ImageNet-1K residual backbone with custom regularized head | Implemented transfer wrapper, layer freezing strategies, and fine-tuning regimes |
 
 ---
 
@@ -51,4 +52,9 @@ This log documents all external resources, tools, code fragments, libraries, dat
 ---
 
 ## 4. Models and Pretrained Weights Attribution
-*(No pretrained models have been downloaded or introduced in Phase I Step 1).*
+- **Model Architecture:** ResNet-18 (Deep Residual Learning for Image Recognition)
+- **Authors:** Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun (Microsoft Research, CVPR 2016)
+- **Pretrained Weights Source:** Torchvision Hub (`ResNet18_Weights.DEFAULT` / `resnet18-f37072fd.pth`)
+- **Pretrained Dataset:** ImageNet-1K ($1.28$M images across 1,000 classes)
+- **Licence:** BSD 3-Clause Licence
+- **Purpose in Project:** Advanced transfer learning feature extractor to resolve fine-grained knuckle and finger-count ambiguities identified in the baseline evaluation.

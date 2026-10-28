@@ -48,7 +48,7 @@ The **Sign Language Recognition and Translation Assistant** is an assistive-tech
 - [x] **Step 18: Baseline Evaluation & Confusion Matrix Analysis** *(Evaluated validation set, rendered 29-class normalized confusion matrix heatmap, analyzed top 10 error pairs like B vs V and J vs H)*
 - [x] **Step 19: Learning Curve Diagnostics** *(Plotted 4-panel training vs validation loss, categorical accuracy, Macro-F1 progression, and generalization gap bias-variance analysis)*
 - [x] **Step 20: Controlled Generalization & Regularization Experiments** *(Conducted ceteris paribus ablation study comparing Full Regularization vs No Dropout, No Weight Decay, and No Augmentation)*
-- [ ] **Step 21: Advanced Vision Model Proposal (ResNet / Transfer Learning)**
+- [x] **Step 21: Advanced Vision Model Proposal (ResNet / Transfer Learning)** *(Formally proposed and implemented Pretrained ResNet-18 transfer wrapper with custom 29-class head and layer freezing strategies)*
 - [ ] **Step 22: Baseline vs Pretrained Model Benchmark**
 - [ ] **Step 23: Student Innovation Hypothesis Definition**
 - [ ] **Step 24: Controlled Experiment Plan**
