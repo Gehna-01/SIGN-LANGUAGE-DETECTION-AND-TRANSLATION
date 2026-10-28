@@ -30,8 +30,8 @@ The **Sign Language Recognition and Translation Assistant** is an assistive-tech
 
 - [x] **Step 1: Define Assistive-Technology Use Case**
 - [x] **Step 2: Research & Propose Candidate Datasets**
-- [x] **Step 3: Dataset Selection & Explicit Approval** *(ASL Alphabet Dataset officially approved & recorded)*
-- [ ] **Step 4: Comprehensive Dataset Audit & Leakage Checks**
+- [x] **Step 3: Dataset Selection & Explicit Approval**
+- [x] **Step 4: Comprehensive Dataset Audit & Leakage Checks** *(Empirically audited 87,000 files; verified 0 corrupt images & uncovered temporal leakage risk)*
 - [ ] **Step 5: Dataset Card Preparation**
 - [ ] **Step 6: Leakage-Safe Data Splitting (Signer-Aware)**
 - [ ] **Step 7: Reproducible Data Pipeline & Semantics-Preserving Preprocessing**
