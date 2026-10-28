@@ -32,8 +32,8 @@ The **Sign Language Recognition and Translation Assistant** is an assistive-tech
 - [x] **Step 2: Research & Propose Candidate Datasets**
 - [x] **Step 3: Dataset Selection & Explicit Approval**
 - [x] **Step 4: Comprehensive Dataset Audit & Leakage Checks**
-- [x] **Step 5: Dataset Card Preparation** *(Created comprehensive, standards-compliant Dataset Card)*
-- [ ] **Step 6: Leakage-Safe Data Splitting (Signer-Aware)**
+- [x] **Step 5: Dataset Card Preparation**
+- [x] **Step 6: Leakage-Safe Data Splitting (Signer-Aware)** *(Created 70/15/15 contiguous block partitions; verified 0% overlap)*
 - [ ] **Step 7: Reproducible Data Pipeline & Semantics-Preserving Preprocessing**
 - [ ] **Step 8: Tensor Mathematics Sandbox (From Scratch)**
 - [ ] **Step 9: McCulloch-Pitts Neuron (From Scratch)**
