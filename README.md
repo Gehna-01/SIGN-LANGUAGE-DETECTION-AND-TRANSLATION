@@ -39,8 +39,8 @@ The **Sign Language Recognition and Translation Assistant** is an assistive-tech
 - [x] **Step 9: McCulloch-Pitts Neuron (From Scratch)**
 - [x] **Step 10: Sigmoid Neuron (From Scratch)**
 - [x] **Step 11: Multilayer Perceptron & Backpropagation (From Scratch)**
-- [x] **Step 12: Finite-Difference Gradient Checking** *(Verified analytical vs numerical gradients on all 17 params; rel error < 1e-8)*
-- [ ] **Step 13: Optimizer Benchmarking (GD, SGD, Momentum, NAG)**
+- [x] **Step 12: Finite-Difference Gradient Checking**
+- [x] **Step 13: Optimizer Benchmarking (GD, SGD, Momentum, NAG)** *(Implemented & benchmarked BGD, SGD, Momentum, and NAG in Python & C++)*
 - [ ] **Step 14: Learning Rule Demonstrations (Hebbian, Competitive, Error-Correction, Boltzmann)**
 - [ ] **Step 15: Activation Functions Comparison & Visualizations**
 - [ ] **Step 16: Baseline CNN Sign Classifier Architecture**
