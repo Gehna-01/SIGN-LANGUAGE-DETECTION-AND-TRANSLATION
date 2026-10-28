@@ -37,8 +37,8 @@ The **Sign Language Recognition and Translation Assistant** is an assistive-tech
 - [x] **Step 7: Reproducible Data Pipeline & Semantics-Preserving Preprocessing**
 - [x] **Step 8: Tensor Mathematics Sandbox (From Scratch)**
 - [x] **Step 9: McCulloch-Pitts Neuron (From Scratch)**
-- [x] **Step 10: Sigmoid Neuron (From Scratch)** *(Continuous activation, derivative proof, BCE loss, & gradient descent in Python & C++)*
-- [ ] **Step 11: Multilayer Perceptron & Backpropagation (From Scratch)**
+- [x] **Step 10: Sigmoid Neuron (From Scratch)**
+- [x] **Step 11: Multilayer Perceptron & Backpropagation (From Scratch)** *(Implemented 2->4->1 MLP & manual matrix calculus backprop; solved non-linear XOR)*
 - [ ] **Step 12: Finite-Difference Gradient Checking**
 - [ ] **Step 13: Optimizer Benchmarking (GD, SGD, Momentum, NAG)**
 - [ ] **Step 14: Learning Rule Demonstrations (Hebbian, Competitive, Error-Correction, Boltzmann)**
