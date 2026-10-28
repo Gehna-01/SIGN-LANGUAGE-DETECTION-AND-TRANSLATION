@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "experiment": "Controlled Regularization Ablation Study",
+    "timestamp": "2026-10-28T14:00:44Z",
+    "epochs_per_condition": 2,
+    "subset_fraction": 0.04,
+    "seed": 42,
+    "device": "cpu"
+  },
+  "results": [
+    {
+      "condition": "Full_Regularization",
+      "config": {
+        "dropout": 0.4,
+        "weight_decay": 0.0001,
+        "augmentation": true,
+        "description": "Baseline: Dropout 0.4, Weight Decay 1e-4, Spatial/Color Augmentation"
+      },
+      "execution_time_seconds": 43.64,
+      "final_train_loss": 2.9654,
+      "final_train_acc": 14.53,
+      "final_val_loss": 3.2544,
+      "final_val_acc": 7.66,
+      "final_val_macro_f1": 4.39,
+      "final_generalization_gap": 6.87,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 3.5298,
+          "train_acc": 6.81,
+          "val_loss": 3.4428,
+          "val_acc": 4.6,
+          "val_macro_f1": 1.7,
+          "gen_gap": 2.22
+        },
+        {
+          "epoch": 2,
+          "train_loss": 2.9654,
+          "train_acc": 14.53,
+          "val_loss": 3.2544,
+          "val_acc": 7.66,
+          "val_macro_f1": 4.39,
+          "gen_gap": 6.87
+        }
+      ]
+    },
+    {
+      "condition": "Ablation_No_Dropout",
+      "config": {
+        "dropout": 0.0,
+        "weight_decay": 0.0001,
+        "augmentation": true,
+        "description": "Ablation: Dropout completely disabled (p=0.0)"
+      },
+      "execution_time_seconds": 43.24,
+      "final_train_loss": 2.3356,
+      "final_train_acc": 30.58,
+      "final_val_loss": 3.344,
+      "final_val_acc": 9.2,
+      "final_val_macro_f1": 4.82,
+      "final_generalization_gap": 21.39,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 3.0865,
+          "train_acc": 12.56,
+          "val_loss": 4.3629,
+          "val_acc": 3.45,
+          "val_macro_f1": 0.23,
+          "gen_gap": 9.11
+        },
+        {
+          "epoch": 2,
+          "train_loss": 2.3356,
+          "train_acc": 30.58,
+          "val_loss": 3.344,
+          "val_acc": 9.2,
+          "val_macro_f1": 4.82,
+          "gen_gap": 21.39
+        }
+      ]
+    },
+    {
+      "condition": "Ablation_No_Weight_Decay",
+      "config": {
+        "dropout": 0.4,
+        "weight_decay": 0.0,
+        "augmentation": true,
+        "description": "Ablation: Decoupled weight decay disabled (lambda=0.0)"
+      },
+      "execution_time_seconds": 41.45,
+      "final_train_loss": 2.962,
+      "final_train_acc": 14.61,
+      "final_val_loss": 3.318,
+      "final_val_acc": 3.64,
+      "final_val_macro_f1": 2.12,
+      "final_generalization_gap": 10.97,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 3.5287,
+          "train_acc": 7.06,
+          "val_loss": 3.4082,
+          "val_acc": 4.98,
+          "val_macro_f1": 1.89,
+          "gen_gap": 2.08
+        },
+        {
+          "epoch": 2,
+          "train_loss": 2.962,
+          "train_acc": 14.61,
+          "val_loss": 3.318,
+          "val_acc": 3.64,
+          "val_macro_f1": 2.12,
+          "gen_gap": 10.97
+        }
+      ]
+    },
+    {
+      "condition": "Ablation_No_Augmentation",
+      "config": {
+        "dropout": 0.4,
+        "weight_decay": 0.0001,
+        "augmentation": false,
+        "description": "Ablation: Train on raw unaugmented images (zero spatial/color jitter)"
+      },
+      "execution_time_seconds": 38.5,
+      "final_train_loss": 2.6531,
+      "final_train_acc": 20.94,
+      "final_val_loss": 3.3471,
+      "final_val_acc": 9.2,
+      "final_val_macro_f1": 3.13,
+      "final_generalization_gap": 11.74,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 3.3309,
+          "train_acc": 9.89,
+          "val_loss": 4.3565,
+          "val_acc": 3.64,
+          "val_macro_f1": 0.44,
+          "gen_gap": 6.25
+        },
+        {
+          "epoch": 2,
+          "train_loss": 2.6531,
+          "train_acc": 20.94,
+          "val_loss": 3.3471,
+          "val_acc": 9.2,
+          "val_macro_f1": 3.13,
+          "gen_gap": 11.74
+        }
+      ]
+    }
+  ]
+}
