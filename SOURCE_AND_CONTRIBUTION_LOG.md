@@ -31,6 +31,7 @@ This log documents all external resources, tools, code fragments, libraries, dat
 | RES-012 | Optimization Algorithms Suite | Optimization Suite | From Scratch (Pure Python) | Academic / Project Code | Comparative training dynamics (BGD, SGD, Momentum, NAG) | Momentum & Nesterov Accelerated Gradient state tracking | Benchmark convergence rates and oscillations |
 | RES-013 | Biological Learning Rules Suite | Unsupervised & Neurobiological | From Scratch (Pure Python) | Academic / Project Code | Demonstration of Hebbian, Oja's PCA, WTA, Delta, Boltzmann | Unsupervised plasticity and synaptic weight dynamics | Implemented and verified mathematical stability bounds |
 | RES-014 | Activation Functions & Vanishing Gradients | Architectural Foundation | From Scratch (Pure Python) | Academic / Project Code | Non-linearities (Step, Sigmoid, Tanh, ReLU, LeakyReLU) | Analytical derivatives and 10-layer gradient simulation | Implemented and justified CNN vs LSTM activations |
+| RES-015 | Baseline CNN Sign Classifier | Deep Learning Model | From Scratch (PyTorch `nn.Module`) | Academic / Project Code | 29-class isolated ASL fingerspelling and control token classification | 4 Conv-BN-ReLU-Pool stages, AdaptiveAvgPool, regularized head | Implemented, mathematically derived receptive fields, verified forward pass |
 
 ---
 
