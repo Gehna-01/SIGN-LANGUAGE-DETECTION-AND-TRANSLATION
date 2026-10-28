@@ -29,8 +29,8 @@ The **Sign Language Recognition and Translation Assistant** is an assistive-tech
 ## 🚦 Roadmap & Phase I Milestone Checklist
 
 - [x] **Step 1: Define Assistive-Technology Use Case**
-- [x] **Step 2: Research & Propose Candidate Datasets** *(Completed candidate audit; awaiting user approval)*
-- [ ] **Step 3: Dataset Selection & Explicit Approval**
+- [x] **Step 2: Research & Propose Candidate Datasets**
+- [x] **Step 3: Dataset Selection & Explicit Approval** *(ASL Alphabet Dataset officially approved & recorded)*
 - [ ] **Step 4: Comprehensive Dataset Audit & Leakage Checks**
 - [ ] **Step 5: Dataset Card Preparation**
 - [ ] **Step 6: Leakage-Safe Data Splitting (Signer-Aware)**

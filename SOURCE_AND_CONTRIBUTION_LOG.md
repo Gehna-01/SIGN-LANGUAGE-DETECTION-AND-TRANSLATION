@@ -27,7 +27,13 @@ This log documents all external resources, tools, code fragments, libraries, dat
 ---
 
 ## 3. Dataset Attribution
-*(No dataset has been finalized or downloaded yet. Awaiting Step 2 proposals and explicit user approval in Step 3).*
+- **Dataset Name:** ASL Alphabet Dataset
+- **Official Author / Contributor:** Akash Nagaraj
+- **Hosting Platform:** Kaggle (`grassknoted/asl-alphabet`)
+- **Direct Link:** [https://www.kaggle.com/datasets/grassknoted/asl-alphabet](https://www.kaggle.com/datasets/grassknoted/asl-alphabet)
+- **Licence:** GNU General Public License v2.0 (GPL 2.0)
+- **Status:** **APPROVED BY USER on 2026-10-28**
+- **Intended Purpose:** Training and benchmarking foundational CNN baseline for isolated sign gesture and fingerspelling classification with operational control tokens (`SPACE`, `DELETE`, `NOTHING`).
 
 ---
 

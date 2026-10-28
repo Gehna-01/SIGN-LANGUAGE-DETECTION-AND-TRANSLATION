@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Datasets and large raw archives
+data/raw/
+data/processed/
+*.zip
+*.tar.gz
+*.tar
+*.mp4
+*.avi
+
+# PyTorch / TensorFlow weights & checkpoints
+*.pt
+*.pth
+*.h5
+*.keras
+*.onnx
+*.pkl
+
+# Kaggle cache
+.kaggle/
+kagglehub/
+
+# IDE & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
