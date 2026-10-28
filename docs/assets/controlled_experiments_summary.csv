@@ -1,0 +1,6 @@
+Condition ID,Name,Mean CER (%),Mean WER (%),Mean Latency (us),Throughput (FPS)
+EXP-C01,"Raw Argmax Baseline (No Gating, No Consensus)",162.46,175.0,2.24,446828.0
+EXP-C02,"Consensus Only (No Gating, K=5, C=4)",108.08,100.0,41.93,23850.0
+EXP-C03,"Confidence Gate Only (No Consensus, K=1, C=1)",86.89,100.0,44.68,22379.0
+EXP-C04,"Proposed CGAF-TCSM (Balanced: K=5, C=4, Margin=0.15)",86.89,100.0,32.01,31242.0
+EXP-C05,"Conservative CGAF-TCSM (High-Precision: K=7, C=6, Margin=0.25)",0.0,0.0,42.46,23549.0

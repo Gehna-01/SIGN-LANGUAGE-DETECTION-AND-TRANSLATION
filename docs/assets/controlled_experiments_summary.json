@@ -1,0 +1,202 @@
+[
+  {
+    "condition_id": "EXP-C01",
+    "name": "Raw Argmax Baseline (No Gating, No Consensus)",
+    "mean_cer_percent": 162.46,
+    "mean_wer_percent": 175.0,
+    "mean_latency_us": 2.24,
+    "throughput_fps": 446828.0,
+    "phrases": [
+      {
+        "reference": "HELLO WORLD",
+        "transcribed": "HTHEDELXLO A FWNSOIOGRHRLULD",
+        "cer": 154.55,
+        "wer": 150.0
+      },
+      {
+        "reference": "SIGN LANGUAGE ASSISTANT",
+        "transcribed": "SYXOIXRIGNKNK V LXLAFANGRG GUHNUAOHAGDGFEJE D AESKSIBSYTKTANGNT",
+        "cer": 173.91,
+        "wer": 200.0
+      },
+      {
+        "reference": "CAN I HELP YOU",
+        "transcribed": "CZCAUIANVHSO INI C HEZLPUPQ W YDYRYOUFU",
+        "cer": 178.57,
+        "wer": 150.0
+      },
+      {
+        "reference": "THANK YOU VERY MUCH",
+        "transcribed": "TZTHOXHVANTNK Q YZYQOEOU VE EHGYGY MCSCMU UZUCV",
+        "cer": 157.89,
+        "wer": 175.0
+      },
+      {
+        "reference": "GOOD MORNING DOCTOR",
+        "transcribed": "GOD OD X MNMORURNPNALIJINGNIG B DZDOACTKTOJORHR",
+        "cer": 147.37,
+        "wer": 200.0
+      }
+    ]
+  },
+  {
+    "condition_id": "EXP-C02",
+    "name": "Consensus Only (No Gating, K=5, C=4)",
+    "mean_cer_percent": 108.08,
+    "mean_wer_percent": 100.0,
+    "mean_latency_us": 41.93,
+    "throughput_fps": 23850.0,
+    "phrases": [
+      {
+        "reference": "HELLO WORLD",
+        "transcribed": "HHEELLLLLOO WWOORRLLDDD",
+        "cer": 109.09,
+        "wer": 100.0
+      },
+      {
+        "reference": "SIGN LANGUAGE ASSISTANT",
+        "transcribed": "SSIIGGGNN LLAANNGGGUUAAGGEE AASSSSSIIISSTTAAANNTTT",
+        "cer": 117.39,
+        "wer": 100.0
+      },
+      {
+        "reference": "CAN I HELP YOU",
+        "transcribed": "CCAANN II HHHEELLLPP YYOOUU",
+        "cer": 92.86,
+        "wer": 100.0
+      },
+      {
+        "reference": "THANK YOU VERY MUCH",
+        "transcribed": "TTHHAAANNKKK YYOOUUU VVVEERRYY MMUUCCHH",
+        "cer": 105.26,
+        "wer": 100.0
+      },
+      {
+        "reference": "GOOD MORNING DOCTOR",
+        "transcribed": "GGGOOOOODDD MMOOORRNNIINNNGG DDOOCCTTOORR",
+        "cer": 115.79,
+        "wer": 100.0
+      }
+    ]
+  },
+  {
+    "condition_id": "EXP-C03",
+    "name": "Confidence Gate Only (No Consensus, K=1, C=1)",
+    "mean_cer_percent": 86.89,
+    "mean_wer_percent": 100.0,
+    "mean_latency_us": 44.68,
+    "throughput_fps": 22379.0,
+    "phrases": [
+      {
+        "reference": "HELLO WORLD",
+        "transcribed": "HHEELLLLOO WWOORRLLDD",
+        "cer": 90.91,
+        "wer": 100.0
+      },
+      {
+        "reference": "SIGN LANGUAGE ASSISTANT",
+        "transcribed": "SSIIGGNN LLAANNGGUUAAGGEE AASSSSIISSTTAANNTT",
+        "cer": 91.3,
+        "wer": 100.0
+      },
+      {
+        "reference": "CAN I HELP YOU",
+        "transcribed": "CCAANN II HHEELLPP YYOOUU",
+        "cer": 78.57,
+        "wer": 100.0
+      },
+      {
+        "reference": "THANK YOU VERY MUCH",
+        "transcribed": "TTHHAANNKK YYOOUU VVEERRYY MMUUCCHH",
+        "cer": 84.21,
+        "wer": 100.0
+      },
+      {
+        "reference": "GOOD MORNING DOCTOR",
+        "transcribed": "GGOOOODD MMOORRNNIINNGG DDOOCCTTOORR",
+        "cer": 89.47,
+        "wer": 100.0
+      }
+    ]
+  },
+  {
+    "condition_id": "EXP-C04",
+    "name": "Proposed CGAF-TCSM (Balanced: K=5, C=4, Margin=0.15)",
+    "mean_cer_percent": 86.89,
+    "mean_wer_percent": 100.0,
+    "mean_latency_us": 32.01,
+    "throughput_fps": 31242.0,
+    "phrases": [
+      {
+        "reference": "HELLO WORLD",
+        "transcribed": "HHEELLLLOO WWOORRLLDD",
+        "cer": 90.91,
+        "wer": 100.0
+      },
+      {
+        "reference": "SIGN LANGUAGE ASSISTANT",
+        "transcribed": "SSIIGGNN LLAANNGGUUAAGGEE AASSSSIISSTTAANNTT",
+        "cer": 91.3,
+        "wer": 100.0
+      },
+      {
+        "reference": "CAN I HELP YOU",
+        "transcribed": "CCAANN II HHEELLPP YYOOUU",
+        "cer": 78.57,
+        "wer": 100.0
+      },
+      {
+        "reference": "THANK YOU VERY MUCH",
+        "transcribed": "TTHHAANNKK YYOOUU VVEERRYY MMUUCCHH",
+        "cer": 84.21,
+        "wer": 100.0
+      },
+      {
+        "reference": "GOOD MORNING DOCTOR",
+        "transcribed": "GGOOOODD MMOORRNNIINNGG DDOOCCTTOORR",
+        "cer": 89.47,
+        "wer": 100.0
+      }
+    ]
+  },
+  {
+    "condition_id": "EXP-C05",
+    "name": "Conservative CGAF-TCSM (High-Precision: K=7, C=6, Margin=0.25)",
+    "mean_cer_percent": 0.0,
+    "mean_wer_percent": 0.0,
+    "mean_latency_us": 42.46,
+    "throughput_fps": 23549.0,
+    "phrases": [
+      {
+        "reference": "HELLO WORLD",
+        "transcribed": "HELLO WORLD",
+        "cer": 0.0,
+        "wer": 0.0
+      },
+      {
+        "reference": "SIGN LANGUAGE ASSISTANT",
+        "transcribed": "SIGN LANGUAGE ASSISTANT",
+        "cer": 0.0,
+        "wer": 0.0
+      },
+      {
+        "reference": "CAN I HELP YOU",
+        "transcribed": "CAN I HELP YOU",
+        "cer": 0.0,
+        "wer": 0.0
+      },
+      {
+        "reference": "THANK YOU VERY MUCH",
+        "transcribed": "THANK YOU VERY MUCH",
+        "cer": 0.0,
+        "wer": 0.0
+      },
+      {
+        "reference": "GOOD MORNING DOCTOR",
+        "transcribed": "GOOD MORNING DOCTOR",
+        "cer": 0.0,
+        "wer": 0.0
+      }
+    ]
+  }
+]
