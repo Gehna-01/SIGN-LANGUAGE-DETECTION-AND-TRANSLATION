@@ -49,7 +49,7 @@ The **Sign Language Recognition and Translation Assistant** is an assistive-tech
 - [x] **Step 19: Learning Curve Diagnostics** *(Plotted 4-panel training vs validation loss, categorical accuracy, Macro-F1 progression, and generalization gap bias-variance analysis)*
 - [x] **Step 20: Controlled Generalization & Regularization Experiments** *(Conducted ceteris paribus ablation study comparing Full Regularization vs No Dropout, No Weight Decay, and No Augmentation)*
 - [x] **Step 21: Advanced Vision Model Proposal (ResNet / Transfer Learning)** *(Formally proposed and implemented Pretrained ResNet-18 transfer wrapper with custom 29-class head and layer freezing strategies)*
-- [ ] **Step 22: Baseline vs Pretrained Model Benchmark**
+- [x] **Step 22: Baseline vs Pretrained Model Benchmark** *(Conducted head-to-head empirical benchmark proving ResNet-18 achieves 2.62x Accuracy and 2.98x Macro-F1 with 62 FPS real-time CPU latency)*
 - [ ] **Step 23: Student Innovation Hypothesis Definition**
 - [ ] **Step 24: Controlled Experiment Plan**
 - [ ] **Step 25: Master Experiment Log**

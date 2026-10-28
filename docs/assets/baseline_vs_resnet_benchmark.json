@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "timestamp": "2026-10-28T21:36:46",
+    "evaluated_samples": 2610,
+    "num_classes": 29,
+    "classes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Y",
+      "Z",
+      "del",
+      "nothing",
+      "space"
+    ]
+  },
+  "models": {
+    "baseline_cnn": {
+      "name": "SignBaselineCNN",
+      "checkpoint": "checkpoints/best_baseline_cnn.pt",
+      "parameters": 425661,
+      "size_mb": 4.9,
+      "metrics": {
+        "accuracy": 0.09961685823754789,
+        "top3_accuracy": 0.246360153256705,
+        "macro_precision": 0.1341154769838704,
+        "macro_recall": 0.10265197062259097,
+        "macro_f1": 0.07985360461699077
+      },
+      "latency_cpu": {
+        "mean_ms": 4.899220000079367,
+        "std_ms": 2.3493802631524985,
+        "p50_ms": 4.072349998750724,
+        "p95_ms": 8.314670000254408,
+        "fps": 204.11412428586593
+      }
+    },
+    "resnet18_transfer": {
+      "name": "SignResNet18Transfer",
+      "checkpoint": "checkpoints/best_resnet18_transfer.pt",
+      "parameters": 11246045,
+      "size_mb": 107.57,
+      "metrics": {
+        "accuracy": 0.26053639846743293,
+        "top3_accuracy": 0.46206896551724136,
+        "macro_precision": 0.3141978946990484,
+        "macro_recall": 0.2667161131969195,
+        "macro_f1": 0.23787488379771654
+      },
+      "latency_cpu": {
+        "mean_ms": 16.12900699969032,
+        "std_ms": 2.5687841983088737,
+        "p50_ms": 15.916600008495152,
+        "p95_ms": 21.618744999432238,
+        "fps": 62.00009709334247
+      }
+    }
+  },
+  "relative_improvements": {
+    "accuracy_multiplier": 2.62,
+    "macro_f1_multiplier": 2.98,
+    "accuracy_delta_percent": 16.09,
+    "macro_f1_delta_percent": 15.8
+  },
+  "per_class_f1_deltas": {
+    "A": 12.42,
+    "B": 22.5,
+    "C": -1.69,
+    "D": 17.53,
+    "E": 18.11,
+    "F": -0.87,
+    "G": 23.48,
+    "H": 6.21,
+    "I": 6.76,
+    "J": 24.49,
+    "K": 12.03,
+    "L": 9.16,
+    "M": 7.41,
+    "N": 5.71,
+    "O": 60.75,
+    "P": 15.84,
+    "Q": 15.27,
+    "R": 0.0,
+    "S": 0.0,
+    "T": 17.93,
+    "U": 4.96,
+    "V": -2.18,
+    "W": 26.77,
+    "X": 1.82,
+    "Y": 13.19,
+    "Z": 33.33,
+    "del": 54.55,
+    "nothing": 27.12,
+    "space": 25.68
+  }
+}

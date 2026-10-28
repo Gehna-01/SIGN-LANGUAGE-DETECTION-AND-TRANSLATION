@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "model": "SignResNet18Transfer",
+    "freeze_strategy": "freeze_shallow",
+    "device": "cpu",
+    "timestamp": "2026-10-28T21:33:42.512135",
+    "epochs": 3,
+    "batch_size": 64,
+    "backbone_lr": 0.0001,
+    "head_lr": 0.001,
+    "weight_decay": 0.0001,
+    "subset_fraction": 0.05,
+    "seed": 42,
+    "num_classes": 29
+  },
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 3.32521,
+      "train_acc": 0.11527,
+      "val_loss": 3.12984,
+      "val_acc": 0.13497,
+      "val_macro_f1": 0.1021,
+      "lr": 0.001,
+      "time_seconds": 64.04,
+      "is_best": true
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.44081,
+      "train_acc": 0.34253,
+      "val_loss": 2.85969,
+      "val_acc": 0.19939,
+      "val_macro_f1": 0.15956,
+      "lr": 0.001,
+      "time_seconds": 75.02,
+      "is_best": true
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.85404,
+      "train_acc": 0.4821,
+      "val_loss": 2.67206,
+      "val_acc": 0.25,
+      "val_macro_f1": 0.23128,
+      "lr": 0.001,
+      "time_seconds": 71.38,
+      "is_best": true
+    }
+  ]
+}
