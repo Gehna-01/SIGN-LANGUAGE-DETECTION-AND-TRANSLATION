@@ -33,6 +33,7 @@ This log documents all external resources, tools, code fragments, libraries, dat
 | RES-014 | Activation Functions & Vanishing Gradients | Architectural Foundation | From Scratch (Pure Python) | Academic / Project Code | Non-linearities (Step, Sigmoid, Tanh, ReLU, LeakyReLU) | Analytical derivatives and 10-layer gradient simulation | Implemented and justified CNN vs LSTM activations |
 | RES-015 | Baseline CNN Sign Classifier | Deep Learning Model | From Scratch (PyTorch `nn.Module`) | Academic / Project Code | 29-class isolated ASL fingerspelling and control token classification | 4 Conv-BN-ReLU-Pool stages, AdaptiveAvgPool, regularized head | Implemented, mathematically derived receptive fields, verified forward pass |
 | RES-016 | Baseline Training Pipeline | Deep Learning Training System | From Scratch (PyTorch & Scikit-Learn) | Academic / Project Code | Multi-class cross-entropy training, AdamW, ReduceLROnPlateau, checkpointing | Model checkpoints (`best_baseline_cnn.pt`), macro-F1 tracking, early stopping | Implemented and empirically validated convergence on 29 classes |
+| RES-017 | Baseline Evaluation & Confusion Matrix | Evaluation & Error Diagnostics | From Scratch (Scikit-Learn, Seaborn, Matplotlib) | Academic / Project Code | 29-class classification report, normalized confusion matrix, error pair diagnostics | Evaluated on validation set, rendered publication heatmap, ranked top 10 error pairs | Implemented and analyzed morphological ambiguities (B vs V, J vs H, space vs nothing) |
 
 ---
 
