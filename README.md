@@ -46,7 +46,7 @@ The **Sign Language Recognition and Translation Assistant** is an assistive-tech
 - [x] **Step 16: Baseline CNN Sign Classifier Architecture** *(Designed 4-stage Conv-BN-ReLU-Pool architecture, AdaptiveAvgPool, regularized head, 425K params in pure PyTorch)*
 - [x] **Step 17: Baseline Training Pipeline & Experiment Setup** *(Engineered reproducible training loop with AdamW, ReduceLROnPlateau, Macro-F1 tracking, early stopping, and checkpointing)*
 - [x] **Step 18: Baseline Evaluation & Confusion Matrix Analysis** *(Evaluated validation set, rendered 29-class normalized confusion matrix heatmap, analyzed top 10 error pairs like B vs V and J vs H)*
-- [ ] **Step 19: Learning Curve Diagnostics**
+- [x] **Step 19: Learning Curve Diagnostics** *(Plotted 4-panel training vs validation loss, categorical accuracy, Macro-F1 progression, and generalization gap bias-variance analysis)*
 - [ ] **Step 20: Controlled Generalization & Regularization Experiments**
 - [ ] **Step 21: Advanced Vision Model Proposal (ResNet / Transfer Learning)**
 - [ ] **Step 22: Baseline vs Pretrained Model Benchmark**
